@@ -9,62 +9,55 @@ Welcome to the Django Blog project documentation. This project is a feature-rich
 
 Before you begin, make sure you have Python and Django installed on your system. To install Django, you can use pip:
 
-bash
+```bash
 pip install Django
-
+```
 
 ### Project Setup
 
 1. Clone the project repository from GitHub:
 
-   
-bash
+   ```bash
    git clone https://github.com/markcarcillar/django-blog.git
-
+   ```
 
 2. Navigate to the project directory:
 
-   
-bash
+   ```bash
    cd django-blog
-
+   ```
 
 3. Create a virtual environment (optional but recommended):
 
-   
-bash
+   ```bash
    python -m venv env
-
+   ```
 
 4. Activate the virtual environment:
 
    - On Windows:
 
-     
-bash
+     ```bash
      .\env\Scripts\activate
-
+     ```
 
    - On macOS and Linux:
 
-     
-bash
+     ```bash
      source env/bin/activate
-
+     ```
 
 5. Install project dependencies:
 
-   
-bash
+   ```bash
    pip install -r requirements.txt
-
+   ```
 
 6. Run the development server:
 
-   
-bash
+   ```bash
    python manage.py runserver
-
+   ```
 
 7. Open your web browser and visit [http://localhost:8000/](http://localhost:8000/) to access the Django Blog project.
 
@@ -72,10 +65,10 @@ bash
 
 The Django Blog project follows a standard Django project structure, with the following notable components:
 
-- core/: The main Django app for managing blog posts and authentication (login, logout, register).
-- core/templates/: HTML templates for rendering web pages.
-- media/: Media files (uploaded images) associated with blog posts.
-- db.sqlite3: The SQLite database file for storing project data.
+- `core/`: The main Django app for managing blog posts and authentication (login, logout, register).
+- `core/templates/`: HTML templates for rendering web pages.
+- `media/`: Media files (uploaded images) associated with blog posts.
+- `db.sqlite3`: The SQLite database file for storing project data.
 
 ## Usage
 
@@ -119,13 +112,17 @@ These dependencies significantly contribute to the functionality and aesthetics 
 
 Please note that detailed installation instructions for these dependencies can be found in the "Getting Started" section of this documentation.
 
+## License
+
+This project is licensed under the MIT License.
+
 ## Contributing
 
 I welcome contributions from the developer community to help improve and grow the Django Blog project. Whether you're interested in fixing bugs, adding new features, improving documentation, or enhancing the user experience, your contributions are highly valuable.
 
 ## Contact
 
-For support, feedback, or inquiries, please contact mj.ibrohimov@gmail.com.
+For support, feedback, or inquiries, please contact mj.ibrohimov@gmail.com
 
 ---
 
