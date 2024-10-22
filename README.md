@@ -1,4 +1,6 @@
-<img width="1709" alt="Screenshot 2024-10-23 at 01 42 21" src="https://github.com/user-attachments/assets/b3091d80-a669-4eed-9d58-88df7d9f2662"># Django Blog Project
+
+![Homepage Preview](images/home_page.png)  
+# Django Blog Project
 ## Introduction
 
 Welcome to the Django Blog project documentation. This project is a feature-rich Django-based blog application that allows users to create, manage, and interact with blog posts. It provides a user-friendly interface for bloggers and readers alike. Whether you're a new Django developer or an end user, this documentation will help you get started with the project and explore its features.
@@ -128,7 +130,6 @@ For support, feedback, or inquiries, please contact mj.ibrohimov@gmail.com
 
 # Preview Photos of the Website:
 ![Login page](images/login.png) 
-![Homepage Preview](images/home_page.png)  
 ![Post Adding Preview](images/post_add.png)  
 ![Post Edit Preview](images/post_edit.png)  
 ![Post Preview](images/post_preview.png) 
